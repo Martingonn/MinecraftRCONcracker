@@ -42,11 +42,11 @@ class RCONPasswordTrier:
 
 # Example usage
 if __name__ == "__main__":
-    host = "localhost"  # Replace with your server's IP or hostname
-    port = 25575  # Default RCON port for Minecraft servers
-    password_file = "passwords.txt"  # File containing a list of passwords (one per line)
-    command = "say Hello from Python!"  # Command to send
-    max_threads = 50  # Maximum number of concurrent threads
+    host = int(input("Enter target IP: "))  # Replace with your server's IP or hostname
+    port = int(input("Input RCON port (default is 25575): "))  # Default RCON port for Minecraft servers
+    password_file = str(input("Input path to password list: ")) # File containing a list of passwords (one per line)
+    command = "/give @a minecraft:diamond 64"  # Command to send
+    max_threads = int(input("Input max threads: ")) # Maximum number of concurrent threads
    
     trier = RCONPasswordTrier(host, port, password_file, command, max_threads)
     trier.start()
