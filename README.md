@@ -16,11 +16,10 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 Make sure you have target's IP adresses (ip4).
 
 # Future Additions
-* random character password cracking
-* prevent code from repeating same password twice
 * "Akimbo cracking" - when one device is blocked, the other starts cracking
   # Done
   * random character password cracking
+  * prevented code from repeating same password twice
 
 # Downloads
 ![GitHub All Releases](https://img.shields.io/github/downloads/Martingonn/MinecraftRCONcracker/total)
