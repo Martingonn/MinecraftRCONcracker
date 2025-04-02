@@ -1,4 +1,4 @@
-# MinecraftRCONcracker
+# MinecraftRCONpasswordCracker
 If you lost your password to your Minecraft server and have default RCON, this script is for you!
 # What is it?
 The code tries out many passwords for your Minecraft server's Remote Console.
